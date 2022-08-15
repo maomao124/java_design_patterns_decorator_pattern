@@ -24,7 +24,7 @@ public class Bacon extends Garnish
     @Override
     public float cost()
     {
-        return getPrice() + getFastFood().getPrice();
+        return getPrice() + getFastFood().cost();
     }
 
     @Override
