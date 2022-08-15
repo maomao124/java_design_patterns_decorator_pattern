@@ -35,7 +35,7 @@ public class Test
             //花费的价格
             System.out.println(fastFood.getDesc() + "：" + fastFood.cost() + "元");
         }
-
+        System.out.println("----------------");
         {
             //炒面
             FastFood fastFood = new FriedNoodles();
